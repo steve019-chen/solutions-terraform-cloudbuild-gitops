@@ -46,7 +46,8 @@ steps:
           terraform init || exit 1
           cd ../../
         done
-      fi 
+      fi
+   - 'PROJECT_ID=$PROJECT_ID'
 
 # [START tf-plan]
 - id: 'tf plan'
